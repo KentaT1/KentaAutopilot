@@ -105,7 +105,7 @@ Once all the necessary settings and configurations are complete, it's time to te
 ## Customize this Autopilot
 The primary objective of sharing this source code is to extend R&D programs related to automated combat drones within the developer community in Ukraine. This initiative aims to establish a strategic advantage on the frontline by implementing automated flight systems equipped with computer vision on widely-spread FPV drones to increase support for the Ukrainian army.
 
-If you are a developer or possess programming skills, this code serves as a template for building your own autopilot compatible with [Betaflight firmware](https://app.betaflight.com). Start with this template and expand it by adding features such as computer vision, target tracking, cruise control, and more. For comprehensive developer instructions, look to [README_DEV.md](README_DEV.md).
+If you are a developer or possess programming skills, this code serves as a template for building your own autopilot compatible with [Betaflight firmware](https://app.betaflight.com). Start with this template and expand it by adding features such as computer vision, target tracking, cruise control, and more. For comprehensive developer instructions, look to [README_DEV.md](README_DEV.md) or to the [guide on Medium](https://medium.com/@dmytrosazonov/fpv-autonomous-operation-with-betaflight-and-raspberry-pi-0caeb4b3ca69).
 
 By creating autopilots, initiating production, and supplying FPV drones to the Ukrainian army, you will actively #SupportUkraine.
 
