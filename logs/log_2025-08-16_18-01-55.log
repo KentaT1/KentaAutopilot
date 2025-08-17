@@ -1,0 +1,101 @@
+2025-08-16 18:01:55,089 - BEE-EPT-UA913 - INFO - [AUTOPILOT STARTED]
+2025-08-16 18:01:57,096 - BEE-EPT-UA913 - INFO - MSP connection is established: '/dev/ttyACM0'
+2025-08-16 18:01:57,097 - BEE-EPT-UA913 - DEBUG - Executing command: INIT, Priority: 0, Body: {}
+2025-08-16 18:01:57,097 - BEE-EPT-UA913 - INFO - Initializing autopilot
+2025-08-16 18:02:00,092 - BEE-EPT-UA913 - INFO - Telemetry: attempting to connect with '/dev/ttyACM0'
+2025-08-16 18:02:00,092 - BEE-EPT-UA913 - INFO - Telemetry: connected with '/dev/ttyACM0'
+2025-08-16 18:02:00,093 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:01,200 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xdc\x05\xd9\x05\xdc\x05\xdd\x03\xd0\x07\xe4\x05\xd0\x07\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:01,201 - BEE-EPT-UA913 - INFO - Bee state changed to [READY]
+2025-08-16 18:02:01,201 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'READY', 'roll': 1500, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1508, 'aux3': 2000, 'aux4': 1000, 'battery': 0, 'rssi': 0, 'rssi_msg': 'No signal', 'speed': 0, 'altitude': 0, 'delivered': False}
+2025-08-16 18:02:02,092 - BEE-EPT-UA913 - INFO - Empty pilot: attempting to connect with '/dev/ttyACM0'
+2025-08-16 18:02:02,093 - BEE-EPT-UA913 - INFO - Empty pilot: connected with '/dev/ttyACM0'
+2025-08-16 18:02:04,093 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:05,200 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xdc\x05\xd9\x05\xdc\x05\xdd\x03\xd0\x07\xe4\x05\xe8\x03\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:05,200 - BEE-EPT-UA913 - INFO - Bee state changed to [OFF]
+2025-08-16 18:02:05,201 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1500, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1508, 'aux3': 1000, 'aux4': 1000, 'battery': 0, 'rssi': 0, 'rssi_msg': 'No signal', 'speed': 0, 'altitude': 0, 'delivered': False}
+2025-08-16 18:02:08,093 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:09,200 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xda\x05\xd9\x05\xdc\x05\xdd\x03\xd0\x07\xe8\x03\xe8\x03\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:09,200 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1498, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1000, 'aux4': 1000, 'battery': 0, 'rssi': 0, 'rssi_msg': 'No signal', 'speed': 0, 'altitude': 0, 'delivered': False}
+2025-08-16 18:02:10,201 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 2, Body: {'target': 'MSP_ALTITUDE'}
+2025-08-16 18:02:11,304 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xd9.\x00\x00\x00\x00'
+2025-08-16 18:02:11,305 - BEE-EPT-UA913 - INFO - Current altitude [119.93 m]
+2025-08-16 18:02:11,305 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1498, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1000, 'aux4': 1000, 'battery': 0, 'rssi': 0, 'rssi_msg': 'No signal', 'speed': 0.0, 'altitude': 119.93, 'delivered': False}
+2025-08-16 18:02:12,306 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:13,412 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xda\x05\xd9\x05\xdc\x05\xdd\x03\xd0\x07\xe8\x03\xe8\x03\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:13,413 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1498, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1000, 'aux4': 1000, 'battery': 0, 'rssi': 0, 'rssi_msg': 'No signal', 'speed': 0.0, 'altitude': 119.93, 'delivered': False}
+2025-08-16 18:02:14,413 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 2, Body: {'target': 'MSP_ALTITUDE'}
+2025-08-16 18:02:15,517 - BEE-EPT-UA913 - DEBUG - Telemetry: b'#.\x00\x00\x00\x00'
+2025-08-16 18:02:15,517 - BEE-EPT-UA913 - INFO - Current altitude [118.11 m]
+2025-08-16 18:02:15,518 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1498, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1000, 'aux4': 1000, 'battery': 0, 'rssi': 0, 'rssi_msg': 'No signal', 'speed': 0.0, 'altitude': 118.11, 'delivered': False}
+2025-08-16 18:02:16,518 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:17,624 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xdc\x05\xd9\x05\xdf\x05\xdd\x03\xd0\x07\xe8\x03\xe8\x03\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:17,625 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1500, 'pitch': 1497, 'yaw': 1503, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1000, 'aux4': 1000, 'battery': 0, 'rssi': 0, 'rssi_msg': 'No signal', 'speed': 0.0, 'altitude': 118.11, 'delivered': False}
+2025-08-16 18:02:18,626 - BEE-EPT-UA913 - DEBUG - Executing command: MONITOR, Priority: 2, Body: {'target': 'MSP_ANALOG'}
+2025-08-16 18:02:19,729 - BEE-EPT-UA913 - DEBUG - Monitoring: b'\x01\x00\x00_\x01\x00\x00\x05\x00'
+2025-08-16 18:02:19,730 - BEE-EPT-UA913 - INFO - RSSI: 351, signal: Strong signal, battery voltage: 0.1V
+2025-08-16 18:02:20,731 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:21,837 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xdc\x05\xd9\x05\xdc\x05\xdd\x03\xd0\x07\xe8\x03\xe4\x05\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:21,837 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1500, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1508, 'aux4': 1000, 'battery': 0.1, 'rssi': 351, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 118.11, 'delivered': False}
+2025-08-16 18:02:22,838 - BEE-EPT-UA913 - DEBUG - Executing command: MONITOR, Priority: 2, Body: {'target': 'MSP_ANALOG'}
+2025-08-16 18:02:23,942 - BEE-EPT-UA913 - DEBUG - Monitoring: b'\x01\x00\x00c\x01\x00\x00\x05\x00'
+2025-08-16 18:02:23,942 - BEE-EPT-UA913 - INFO - RSSI: 355, signal: Strong signal, battery voltage: 0.1V
+2025-08-16 18:02:24,943 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:26,049 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xdc\x05\xd9\x05\xdc\x05\xdd\x03\xd0\x07\xe8\x03\xe4\x05\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:26,049 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1500, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1508, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 118.11, 'delivered': False}
+2025-08-16 18:02:27,050 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 2, Body: {'target': 'MSP_ALTITUDE'}
+2025-08-16 18:02:28,153 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\x9c,\x00\x00\x00\x00'
+2025-08-16 18:02:28,154 - BEE-EPT-UA913 - INFO - Current altitude [114.2 m]
+2025-08-16 18:02:28,154 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1500, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1508, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 114.2, 'delivered': False}
+2025-08-16 18:02:29,155 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:30,261 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xdc\x05\xd9\x05\xdf\x05\xdd\x03\xd0\x07\xe8\x03\xe4\x05\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:30,261 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1500, 'pitch': 1497, 'yaw': 1503, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1508, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 114.2, 'delivered': False}
+2025-08-16 18:02:31,262 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 2, Body: {'target': 'MSP_ALTITUDE'}
+2025-08-16 18:02:32,366 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xa4,\x00\x00\x00\x00'
+2025-08-16 18:02:32,366 - BEE-EPT-UA913 - INFO - Current altitude [114.28 m]
+2025-08-16 18:02:32,366 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'OFF', 'roll': 1500, 'pitch': 1497, 'yaw': 1503, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1508, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 114.28, 'delivered': False}
+2025-08-16 18:02:33,367 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:34,473 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xda\x05\xd9\x05\xdf\x05\xdd\x03\xd0\x07\xe8\x03\xd0\x07\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:34,474 - BEE-EPT-UA913 - INFO - Bee state changed to [READY]
+2025-08-16 18:02:34,474 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'READY', 'roll': 1498, 'pitch': 1497, 'yaw': 1503, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 2000, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 114.28, 'delivered': False}
+2025-08-16 18:02:36,095 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:37,201 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xdc\x05\xd9\x05\xdf\x05\xdd\x03\xd0\x07\xe8\x03\xd0\x07\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:37,202 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'READY', 'roll': 1500, 'pitch': 1497, 'yaw': 1503, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 2000, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 114.28, 'delivered': False}
+2025-08-16 18:02:38,202 - BEE-EPT-UA913 - DEBUG - Executing command: DELIVER, Priority: 1, Body: {}
+2025-08-16 18:02:44,229 - BEE-EPT-UA913 - INFO - [We are going forward for 2 sec]
+2025-08-16 18:02:46,253 - BEE-EPT-UA913 - INFO - [We are delivering package]
+2025-08-16 18:02:46,253 - BEE-EPT-UA913 - INFO - [MISSION COMPLETED]
+2025-08-16 18:02:48,095 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:49,202 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xdc\x05\xd9\x05\xdf\x05\xdd\x03\xd0\x07\xe8\x03\xd0\x07\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:49,202 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'READY', 'roll': 1500, 'pitch': 1497, 'yaw': 1503, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 2000, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 114.28, 'delivered': True}
+2025-08-16 18:02:50,203 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 2, Body: {'target': 'MSP_ALTITUDE'}
+2025-08-16 18:02:51,306 - BEE-EPT-UA913 - DEBUG - Telemetry: b'".\x00\x00\x00\x00'
+2025-08-16 18:02:51,307 - BEE-EPT-UA913 - INFO - Current altitude [118.1 m]
+2025-08-16 18:02:51,307 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'READY', 'roll': 1500, 'pitch': 1497, 'yaw': 1503, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 2000, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 118.1, 'delivered': True}
+2025-08-16 18:02:52,308 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:53,414 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xda\x05\xd9\x05\xdc\x05\xdd\x03\xd0\x07\xe8\x03\xd0\x07\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:53,415 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'READY', 'roll': 1498, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 2000, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 118.1, 'delivered': True}
+2025-08-16 18:02:54,415 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 2, Body: {'target': 'MSP_ALTITUDE'}
+2025-08-16 18:02:55,519 - BEE-EPT-UA913 - DEBUG - Telemetry: b'9.\x00\x00\x00\x00'
+2025-08-16 18:02:55,520 - BEE-EPT-UA913 - INFO - Current altitude [118.33 m]
+2025-08-16 18:02:55,520 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'READY', 'roll': 1498, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 2000, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 118.33, 'delivered': True}
+2025-08-16 18:02:56,521 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:02:57,627 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xda\x05\xd9\x05\xdc\x05\xdd\x03\xd0\x07\xe8\x03\xd0\x07\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:02:57,628 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'READY', 'roll': 1498, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 2000, 'aux4': 1000, 'battery': 0.1, 'rssi': 355, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 118.33, 'delivered': True}
+2025-08-16 18:02:58,629 - BEE-EPT-UA913 - DEBUG - Executing command: MONITOR, Priority: 2, Body: {'target': 'MSP_ANALOG'}
+2025-08-16 18:02:59,732 - BEE-EPT-UA913 - DEBUG - Monitoring: b'\x01\x00\x00b\x01\x00\x00\x05\x00'
+2025-08-16 18:02:59,733 - BEE-EPT-UA913 - INFO - RSSI: 354, signal: Strong signal, battery voltage: 0.1V
+2025-08-16 18:03:00,733 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:03:01,840 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xd9\x05\xd9\x05\xdc\x05\xdd\x03\xd0\x07\xe8\x03\xd0\x07\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:03:01,840 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'READY', 'roll': 1497, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 2000, 'aux4': 1000, 'battery': 0.1, 'rssi': 354, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 118.33, 'delivered': True}
+2025-08-16 18:03:02,841 - BEE-EPT-UA913 - DEBUG - Executing command: MONITOR, Priority: 2, Body: {'target': 'MSP_ANALOG'}
+2025-08-16 18:03:03,945 - BEE-EPT-UA913 - DEBUG - Monitoring: b'\x01\x00\x00`\x01\x00\x00\x05\x00'
+2025-08-16 18:03:03,945 - BEE-EPT-UA913 - INFO - RSSI: 352, signal: Strong signal, battery voltage: 0.1V
+2025-08-16 18:03:04,946 - BEE-EPT-UA913 - DEBUG - Executing command: TELEMETRY, Priority: 1, Body: {'target': 'MSP_RC'}
+2025-08-16 18:03:06,052 - BEE-EPT-UA913 - DEBUG - Telemetry: b'\xda\x05\xd9\x05\xdc\x05\xdd\x03\xd0\x07\xe8\x03\xe4\x05\xe8\x03\xe4\x05\xe4\x05\xe4\x05\xe4\x05\xdc\x05\xdc\x05\xdc\x07\xdc\x07'
+2025-08-16 18:03:06,053 - BEE-EPT-UA913 - INFO - Autopilot state: {'connection': True, 'bee_state': 'READY', 'roll': 1498, 'pitch': 1497, 'yaw': 1500, 'throttle': 989, 'aux1': 2000, 'aux2': 1000, 'aux3': 1508, 'aux4': 1000, 'battery': 0.1, 'rssi': 352, 'rssi_msg': 'Strong signal', 'speed': 0.0, 'altitude': 118.33, 'delivered': True}
+2025-08-16 18:03:06,822 - BEE-EPT-UA913 - INFO - [STOPPING THREADS]
+2025-08-16 18:03:07,053 - BEE-EPT-UA913 - INFO - thread 'Command executor', DONE.
+2025-08-16 18:03:08,097 - BEE-EPT-UA913 - INFO - thread 'Telemetry requestor', DONE.
+2025-08-16 18:03:08,098 - BEE-EPT-UA913 - INFO - thread 'Empty pilot process', DONE.
+2025-08-16 18:03:08,099 - BEE-EPT-UA913 - INFO - [AUTOPILOT FINISHED]
